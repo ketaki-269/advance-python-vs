@@ -29,7 +29,7 @@ result = arr1+arr2
 end = time.time()
 print("array_time",result)
 
-
+# for list 
 size=100000
 list1 = range(size)
 list2 = range(size)
@@ -38,6 +38,7 @@ result =[x+y for x,y in zip(list1 , list2)]
 end = time.time()
 print("list_time",end-start)
 
+# for array 
 #arange is a function 
 arr1 = np.arange(size)
 arr2 = np.arange(size)
