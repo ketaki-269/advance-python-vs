@@ -7,3 +7,7 @@ import numpy as np
 #1 dimensional 
 #two dimensional
 #multidimensional array
+
+#fast computaions 
+list = [1,2,3,4,5] # inbliut data type
+arr1 = np.array([1,2,3,4,5])
