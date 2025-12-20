@@ -48,3 +48,19 @@ arr3.dtype
 #for int - i
 #for string - U
 #for float - f 
+
+
+import numpy as np
+import pandas as pd
+import matplotlib as plt
+import seaborn as sns
+
+sns.distplot([1,2,3,4,5,6])
+
+
+# This curve is  of  normal distribution 
+#bell curve
+#gausiian dristribution 
+# right scobe
+# left scube 
+
