@@ -39,3 +39,12 @@ arr2.dtype
 
 print(type(arr2))
 arr2.dtype
+
+#for conversion of dtype 
+# conversion of datatype 
+arr3= np.array([1,2,3,4,5] , dtype ="f")
+arr3.dtype
+# to convert
+#for int - i
+#for string - U
+#for float - f 
