@@ -12,3 +12,13 @@ arr2 = np.array([1,2,3,4,5])
 print(arr2)
 print(type(arr2))
 arr2.ndim
+
+
+# 2 dimensional array 
+arr3 = np.array([[1,2,3,4,5],[6,7,8,9,10]])
+print(arr3)
+print(type(arr3))
+arr3.ndim
+
+#vector embedding - padhan hai thoda - by this we can see random data generation,kis database me kis data me konsi cheze jani chahiye 
+
