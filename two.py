@@ -11,3 +11,31 @@ import numpy as np
 #fast computaions 
 list = [1,2,3,4,5] # inbliut data type
 arr1 = np.array([1,2,3,4,5])
+
+print(type(list))
+print(type(arr1))
+
+arr1.shape # SHape is a method its  use to define no of rows and no of column 
+
+# to find the data type of array
+arr1.dtype
+
+# to check dimensionality
+arr1.ndim 
+
+arr2 = np.array ([[1,2,3,4],[5,6,7,8]])
+print(arr2)
+print(type(arr2))
+arr2.ndim
+arr2.dtype
+
+#identity matrix - refer kerna chahiye ya nhi ye identity matrix decide kerta hai ,
+#like place or person ke hisab se ye recommend kerta hai like mp ke hisab se mp ka food south ke hisab se south ka food 
+
+#classification -  similar chezze refer kerna 
+#multiclass classification -  uski class jesi chezze refer kerna 
+#recommendation -  like roti ke sath sabji recommend / rfer kerna 
+
+
+print(type(arr2))
+arr2.dtype
