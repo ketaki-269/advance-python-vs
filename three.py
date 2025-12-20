@@ -22,3 +22,8 @@ arr3.ndim
 
 #vector embedding - padhan hai thoda - by this we can see random data generation,kis database me kis data me konsi cheze jani chahiye 
 
+# 3 dimentional array
+arr4 = np.array([[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12]]])
+print(arr4)
+print(type(arr4))
+arr4.ndim
